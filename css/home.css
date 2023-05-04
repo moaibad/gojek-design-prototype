@@ -163,7 +163,7 @@
 
 .fitur-menu{
     margin-top: 15px;
-    width: 321px;
+    width: 320px;
     height: auto;
     position: relative;
     align-items: flex-start;
@@ -188,3 +188,66 @@
     font-stretch: normal;
     text-decoration: none;
 }
+
+.gopay-section{
+    margin-top: 20px;
+    width: 320px;
+    height: 206px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(2, 129, 160, 1);
+    border-radius: 20px;
+}
+
+.gopay-section-card{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 280px;
+    height: 84px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+#gopay-section-card-ballon{
+    margin-right:6px;
+    height: 68px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.gopay-section-text-saldo{
+    top: 32px;
+    color: rgba(29, 29, 29, 1);
+    position: absolute;
+    font-size: 14px;
+    font-family: SF Pro Display;
+    font-weight: 700;
+}
+
+#gopay-section-card-income{
+    margin-top:2px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.gopay-section-text-income{
+    margin-top:auto;
+    color: rgba(29, 29, 29, 1);
+    font-size:10px;
+    font-family: SF Pro Display;
+    font-weight: 700;
+}
+
+.gopay-section-card-history{
+    left:105px;
+    top:13px;
+    position: absolute;
+}
+
