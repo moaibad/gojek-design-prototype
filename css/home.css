@@ -6,6 +6,8 @@
     align-items: flex-start;
     flex-shrink: 1;
     background-color: rgba(0, 136, 15, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
 .status_bar {
@@ -196,6 +198,8 @@
     position: relative;
     flex-shrink: 1;
     background-color: rgba(2, 129, 160, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 
@@ -254,6 +258,8 @@
     width: 320px;
     position: relative;
     background-color: rgba(2, 129, 160, 1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
 }
 
 .gopay-section-fitur-menu{
@@ -289,3 +295,46 @@
     border-radius: 20px;
 }
 
+.goclub-section{
+    margin-top:20px;
+    width: 320px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.akses-cepat-section{
+    margin-top:20px;
+    width: 320px;
+    height: 141px;
+    position: relative;
+}
+
+.akses-cepat-section-list{
+    margin-top:10px;
+    margin-left: 10px;
+    position: relative;
+    border-color: rgba(232, 232, 232, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding-bottom:5px;
+    padding-top:5px
+}
+
+.akses-cepat-section-list-text{
+    color: rgba(74, 74, 74, 1);
+    height: auto;
+    font-size: 14px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 400;
+}
+
+.text-judul{
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 700;
+}
