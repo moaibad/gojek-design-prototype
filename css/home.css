@@ -216,7 +216,7 @@
     border-radius: 20px;
 }
 
-#gopay-section-card-ballon{
+.gopay-section-card-ballon{
     margin-right:6px;
     height: 68px;
     display: flex;
