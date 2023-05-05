@@ -1,0 +1,11 @@
+.base {
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+    </style>
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font"
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+</head>
+
+<body>
+    <div class="base">
+        <div class="header">
+            <div class="status_bar">
+                <div class="jam">
+                    <span class="jam_text">
+                        <span>19:20</span>
+                    </span>
+                </div>
+
+                <img src="./assets/koneksi.svg" alt="koneksi" class="koneksi"/>
+                <img src="./assets/wifi.svg" alt="wifi" class="wifi"/>
+                <img src="./assets/battery.png" alt="battery" class="battery"/>
+
+            </div>
+            <div class="header-tab">
+                <div class="header-tab-box">
+                    <img src="./assets/beranda_highlight.png" alt="beranda_highlight" style="padding-left:5px; padding-top:1px; width: 83px; height: 40px;"/>
+                </div>
+                <div class="header-tab-box">
+                    <span style="margin:auto; color: rgb(255, 255, 255); font-family: SF Pro Display; font-size: 14px; font-weight: 700;">Promo</span>
+                </div>
+                <div class="header-tab-box">
+                    <span style="margin:auto; color: rgb(255, 255, 255); font-family: SF Pro Display; font-size: 14px; font-weight: 700;">Pesanan</span>
+                </div>
+                <div class="header-tab-box">
+                    <span style="margin:auto; color: rgb(255, 255, 255); font-family: SF Pro Display; font-size: 14px; font-weight: 700;">Chat</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="search-bar">
+                <img src="./assets/search_icon.svg" alt="search_icon" class="search-icon">
+            </div>
+            <span class="search-text">Masukan Pencarian Anda</span>
+            <div class="search-avatar">
+                <img src="./assets/avatar.png" alt="avatar">
+            </div>
+        </div>
+        
+        <div class="fitur-menu">
+            <div class="row">
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/goride.png" class="fitur-gambar">
+                    <span class="fitur-text">GoRide</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/gocar.png" class="fitur-gambar">
+                    <span class="fitur-text">GoCar</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/gofood.png" class="fitur-gambar">
+                    <span class="fitur-text">GoFood</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/gosend.png" class="fitur-gambar">
+                    <span class="fitur-text">GoSend</span>
+                </div>
+            </div>    
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/gomart.png" class="fitur-gambar">
+                    <span class="fitur-text">GoMart</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/gopulsa.png" class="fitur-gambar">
+                    <span class="fitur-text">GoPulsa</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/goclub.png" class="fitur-gambar">
+                    <span class="fitur-text">GoClub</span>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <img src="/assets/Lainnya.png" class="fitur-gambar">
+                    <span class="fitur-text">Lainnya</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gopay-section">
+            <div class="gopay-section-card">
+                <div class="col-5" id="gopay-section-card-ballon">
+                    <img src="./assets/gopay-logo.png" alt="gopay-logo" style="width: 57px; height: 14px; margin-top:10px;">
+                    <span class="gopay-section-text-saldo">Rp.12.573</span>
+                </div>
+                <div class="col-7" id="gopay-section-card-ballon" style="display: grid;">
+                    <div class="row" id="gopay-section-card-income">
+                        <div class="col-1">
+                            <img src="./assets/income.png" alt="gopay-logo" style="width: 21px; height: 21px;">
+                        </div>
+                        <div class="col-3">
+                            <span class="gopay-section-text-income">Rp.12.573</span>
+                        </div>
+                    </div>
+                    <div class="row" id="gopay-section-card-income">
+                        <div class="col-1">
+                            <img src="./assets/outcome.png" alt="gopay-logo" style="width: 21px; height: 21px;">
+                        </div>
+                        <div class="col-3">
+                            <span class="gopay-section-text-income">Rp.4.379</span>
+                        </div>
+                    </div>             
+                    <img src="./assets/history.png" class="gopay-section-card-history">
+                </div>
+            </div>
+        </div>
+        <div class="gopay-section-fitur">
+            <div class="gopay-section-fitur-menu">
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-3" style="text-align: center;">
+                        <img src="/assets/gopay-pay.png" class="gopay-section-fitur-menu-gambar">
+                        <span class="gopay-section-fitur-menu-text">Pay</span>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <img src="/assets/gopay-request.png" class="gopay-section-fitur-menu-gambar">
+                        <span class="gopay-section-fitur-menu-text">Request</span>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <img src="/assets/gopay-topup.png" class="gopay-section-fitur-menu-gambar">
+                        <span class="gopay-section-fitur-menu-text">Top Up</span>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <img src="/assets/gopay-help.png" class="gopay-section-fitur-menu-gambar">
+                        <span class="gopay-section-fitur-menu-text">Help</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gopay-section-fitur-expand">
+                <img src="./assets/expand.svg">
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
