@@ -10,69 +10,6 @@
     border-top-right-radius: 20px;
   }
 
-.status_bar {
-    top: 0px;
-    left: 0px;
-    width: 375px;
-    height: 44px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
-
-.jam {
-    top: 7px;
-    left: 16px;
-    width: 54px;
-    height: 21px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
-
-.jam_text{
-    top: 6px;
-    color: var(--dl-color-base_color-white);
-    width: 54px;
-    height: auto;
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Montserrat;
-    font-weight: 600;
-    line-height: 20px;
-    font-stretch: normal;
-    text-decoration: none;
-}
-
-.koneksi{
-    top: 17px;
-    left: 292px;
-    width: 17px;
-    height: 11px;
-    position: absolute;
-}
-
-.wifi{
-    top: 17px;
-    left: 314px;
-    width: 17px;
-    height: 11px;
-    position: absolute;
-}
-
-.battery{
-    top: 16px;
-    left: 334px;
-    width: 24px;
-    height: 13px;
-    position: absolute;
-}
-
 .header-tab {
     top: 50px;
     left: 15px;
@@ -83,7 +20,7 @@
     align-items: flex-start;
     flex-shrink: 1;
     background-color: rgba(9, 114, 16, 1);
-  }
+}
 
 .header-tab-box{
     padding-top:5px;
@@ -311,7 +248,6 @@
 
 .akses-cepat-section-list{
     margin-top:10px;
-    margin-left: 10px;
     position: relative;
     border-color: rgba(232, 232, 232, 1);
     border-style: solid;
@@ -335,6 +271,36 @@
     font-size: 18px;
     font-style: Bold;
     text-align: left;
+    font-family: SF Pro Display;
+    font-weight: 700;
+}
+
+.iklan-section{
+    margin-top:30px;
+    width: 320px;
+    position: relative;
+}
+
+.iklan-section img{
+    width:320px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.iklan-section-text{
+    position: relative;
+    border-color: rgba(232, 232, 232, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:20px;
+}
+
+.iklan-section-text span{
+    color: rgba(29, 29, 29, 1);
+    font-size: 16px;
+    font-style: Bold;
     font-family: SF Pro Display;
     font-weight: 700;
 }
