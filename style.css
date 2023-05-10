@@ -7,5 +7,67 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
+}
+
+.status_bar {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.jam {
+  top: 7px;
+  left: 16px;
+  width: 54px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.jam_text{
+  top: 6px;
+  color: var(--dl-color-base_color-white);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.koneksi{
+  top: 17px;
+  left: 292px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+
+.wifi{
+  top: 17px;
+  left: 314px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+
+.battery{
+  top: 16px;
+  left: 334px;
+  width: 24px;
+  height: 13px;
+  position: absolute;
 }
