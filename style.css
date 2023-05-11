@@ -72,3 +72,7 @@
   height: 13px;
   position: absolute;
 }
+
+.center{
+  text-align: center;
+}
