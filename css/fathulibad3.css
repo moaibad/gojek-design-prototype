@@ -3,7 +3,7 @@
     height: 450px;
     display: flex;
     position: relative;
-    background-image: url("/assets/gambar_qr.png");
+    background-image: url("../assets/gambar_qr.png");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
