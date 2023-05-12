@@ -1,0 +1,559 @@
+.history2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.history2-history2 {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.history2-ornament {
+  top: 655px;
+  left: 0px;
+  width: 375px;
+  height: 314px;
+  position: absolute;
+}
+.history2-list-transaksi {
+  top: 173px;
+  left: 0px;
+  width: 375px;
+  height: 309px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-rectangle68 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 1px;
+  position: absolute;
+}
+.history2-transaksi2 {
+  top: 67px;
+  left: 16px;
+  width: 345px;
+  height: 53px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-rectangle69 {
+  top: 52px;
+  left: 45px;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+}
+.history2-text {
+  top: 16px;
+  left: 45px;
+  color: rgba(74, 74, 74, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text02 {
+  left: 45px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text04 {
+  top: 10px;
+  left: 264px;
+  color: rgba(0, 136, 33, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-topup {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.history2-transaksi3 {
+  top: 144px;
+  left: 16px;
+  width: 345px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-text06 {
+  top: 16px;
+  left: 45px;
+  color: rgba(74, 74, 74, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text08 {
+  left: 45px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text10 {
+  top: 10px;
+  left: 264px;
+  color: rgba(0, 136, 33, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-topup1 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.history2-transaksi6 {
+  top: 256px;
+  left: 16px;
+  width: 345px;
+  height: 53px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-rectangle691 {
+  top: 52px;
+  left: 45px;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+}
+.history2-text12 {
+  top: 16px;
+  left: 45px;
+  color: rgba(74, 74, 74, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text14 {
+  left: 45px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text16 {
+  top: 10px;
+  left: 264px;
+  color: rgba(0, 136, 33, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-topup2 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.history2-text18 {
+  top: 17px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text20 {
+  top: 206px;
+  left: 16px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-header {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-type {
+  top: 128px;
+  left: 232px;
+  width: 128px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-tab {
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.history2-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 29px;
+  position: absolute;
+  border-color: rgba(153, 151, 152, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+}
+.history2-text22 {
+  top: 8px;
+  left: 11px;
+  color: rgba(0, 0, 0, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-vector {
+  top: 11px;
+  left: 114px;
+  width: 6px;
+  height: 10px;
+  position: absolute;
+}
+.history2-services {
+  top: 128px;
+  left: 113px;
+  width: 97px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-tab1 {
+  top: 0px;
+  left: 0px;
+  width: 97px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.history2-rectangle51 {
+  top: 0px;
+  left: 0px;
+  width: 97px;
+  height: 29px;
+  position: absolute;
+  border-color: rgba(153, 151, 152, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+}
+.history2-text24 {
+  top: 8px;
+  left: 5.1052632331848145px;
+  color: rgba(0, 0, 0, 1);
+  width: 56px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-vector1 {
+  top: 11px;
+  left: 83px;
+  width: 6px;
+  height: 10px;
+  position: absolute;
+}
+.history2-date {
+  top: 128px;
+  left: 15px;
+  width: 76px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-tab2 {
+  top: 0px;
+  left: 0px;
+  width: 76px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.history2-rectangle52 {
+  top: 0px;
+  left: 0px;
+  width: 76px;
+  height: 29px;
+  position: absolute;
+  border-color: rgba(153, 151, 152, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+}
+.history2-text26 {
+  top: 8px;
+  left: 14px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-vector2 {
+  top: 11px;
+  left: 63px;
+  width: 6px;
+  height: 10px;
+  position: absolute;
+}
+.history2-base {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 115px;
+  position: absolute;
+}
+.history2-vector3 {
+  top: 69px;
+  left: 16px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.history2-status-bar-light {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.history2-battery {
+  top: 17.33331298828125px;
+  left: 334.33331298828125px;
+  width: 24.32803726196289px;
+  height: 11.333333015441895px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.history2-border {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2.6666667461395264px;
+}
+.history2-cap {
+  top: 3.6666667461395264px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.history2-capacity {
+  top: 1.9999998807907104px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-radius: 1.3333333730697632px;
+}
+.history2-wifi {
+  top: 17.3306884765625px;
+  left: 314px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.history2-cellular-connection {
+  top: 17.66668701171875px;
+  left: 292px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.history2-time-style {
+  top: 7px;
+  left: 16px;
+  width: 54px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.history2-text28 {
+  top: 6px;
+  color: var(--dl-color-base_color-white);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.history2-text30 {
+  top: 68px;
+  left: 47px;
+  color: var(--dl-color-default-white);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
